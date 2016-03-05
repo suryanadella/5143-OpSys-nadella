@@ -12,7 +12,7 @@ Date: 04 March 2016
 
 changing a process from ready state to ready suspend state so that memory can be occupied by another process for a while is known as swapping.
 
-3.9 List three general categories of information in a process control block.
+## 3.9 List three general categories of information in a process control block.
 
 1.Process identification: id of this process, id of the parent process and user id.
 
@@ -25,12 +25,12 @@ changing a process from ready state to ready suspend state so that memory can be
  d. Resource ownership and utilization 
  e. Process privileges: 
  
- 3.10 Why are two modes (user and kernel) needed?
+## 3.10 Why are two modes (user and kernel) needed?
 
 usermode is needed to request system API'S to access hardware. Kernel mode is needed as it has the complete code to execute all the cpu instructions and whenever the system is crashed, the whole cpu gets halted.
 
 
-3.12 What is the difference between an interrupt and a trap?
+## 3.12 What is the difference between an interrupt and a trap?
 
  1.traps are software-invoked interrupts where as interrupts are Hardware.
  
@@ -38,7 +38,7 @@ usermode is needed to request system API'S to access hardware. Kernel mode is ne
 In traps, interrupts should preserve the previous state of the CPU.
 
 
-3.13 Give three examples of an interrupt.
+## 3.13 Give three examples of an interrupt.
 
 Internal Interrupts:
 
@@ -59,7 +59,7 @@ These occurs when any Input and Output Device request for any Operation and the 
 For Example When a Program is executed and when we move the Mouse on the Screen then the CPU will handle this External interrupt first and after that he will resume with his Operation.
 
 
-3.14 What is the difference between a mode switch and a process switch?
+## 3.14 What is the difference between a mode switch and a process switch?
 
 A mode switch is between kernel mode and user mode where as process switch is when one process is swapped and another process occupies CPU
 when a process is in kernel mode, it cannot be switched anytime and it has to execute all the instructions where as a process can be switched any time.
