@@ -62,4 +62,5 @@ For Example When a Program is executed and when we move the Mouse on the Screen 
 ## 3.14 What is the difference between a mode switch and a process switch?
 
 A mode switch is between kernel mode and user mode where as process switch is when one process is swapped and another process occupies CPU
+
 when a process is in kernel mode, it cannot be switched anytime and it has to execute all the instructions where as a process can be switched any time.
